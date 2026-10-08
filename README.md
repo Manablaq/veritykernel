@@ -3,7 +3,16 @@
 Universal consensus judgment primitive for GenLayer Studio Next.
 
 ## Status
-Backend v1 local static + Direct Mode candidate certified. **Not deployed. Studio Dev validator-sandbox certification remains pending.**
+Backend v1 is **deployed and live-finality certified on Studio Dev**.
+
+Gate H reviewer matrix is complete:
+- PASS: `YN -> PASS`
+- FAIL: `NN -> FAIL`
+- INCONCLUSIVE: `YU -> INCONCLUSIVE`
+- PROMPT_INJECTION: `YN -> PASS`
+
+The frozen reviewer evidence is committed under `verification/reviewer-freeze/`.
+See `docs/REVIEWER_SUBMISSION.md` for the reviewer-ready deployment and verification summary.
 
 ## Core flow
 1. Register immutable decision criteria.
