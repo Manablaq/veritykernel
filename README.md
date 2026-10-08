@@ -47,5 +47,5 @@ npm install -g genlayer@0.40.0-rc.3
 ./scripts/verify_backend.sh
 ```
 
-Deployment automation is intentionally withheld until the static + Direct Mode
-gates pass and a separate minimal Studio Dev fee-path deployment probe succeeds.
+Deployment and Studio Dev live-finality certification are complete.
+Reviewer evidence is frozen under `verification/reviewer-freeze/` and summarized in `docs/REVIEWER_SUBMISSION.md`.
