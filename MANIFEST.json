@@ -4,8 +4,12 @@
     "sha256": "a72c12a64c6e47f3bb52e2963729887e4ea5bdd6dc08b9c2f1aa1dc789494597"
   },
   "README.md": {
-    "bytes": 1239,
-    "sha256": "8584510c686362199f74c9554bc2a57d1168910d8fd187e58a268bef52ab847a"
+    "bytes": 1520,
+    "sha256": "d094efb5ccdda418acc2f15f605f63468da51791bb32083d5338343498d4a8b6"
+  },
+  "artifacts/verity_kernel.schema.json": {
+    "bytes": 1977,
+    "sha256": "d655a45829b12dd2316975db061d045b5fffc6caa2e61936fe0e38a12ac59fa4"
   },
   "contracts/verity_kernel.py": {
     "bytes": 13781,
@@ -26,6 +30,10 @@
   "docs/RESEARCH_FREEZE.md": {
     "bytes": 1826,
     "sha256": "80f0c8e73d8269d28532138e0c5853de2b8db4d9c4615ccf53bfed6bf8161890"
+  },
+  "docs/REVIEWER_SUBMISSION.md": {
+    "bytes": 2471,
+    "sha256": "8573128e5ff2f2df2273c312ea00bc05edc536773a4fcb9f998abbb8d0b8ad43"
   },
   "docs/RUNNER_PIN_CORRECTION_2026-10-07.md": {
     "bytes": 596,
@@ -55,16 +63,28 @@
     "bytes": 2252,
     "sha256": "3d49d1c430db986cf415feeaa27e2fdc07d85fa77d3ab5c338939bf9dbf2421e"
   },
+  "tests/direct/__pycache__/test_verity_kernel.cpython-312-pytest-8.4.2.pyc": {
+    "bytes": 40321,
+    "sha256": "b8ff272d34f57f2c5e2e9de710cfca1a150658167eb642f7e9e1da0515c52600"
+  },
+  "tests/direct/__pycache__/test_verity_kernel.cpython-312.pyc": {
+    "bytes": 17741,
+    "sha256": "de739c23341828f085d3923e81f0308b2fc95b38c3c55f0345c998708fe42625"
+  },
   "tests/direct/test_verity_kernel.py": {
     "bytes": 13211,
     "sha256": "e84cb2a8fda5eda73c9576d51e3385f439b0258cb1d85244c490e90f311521de"
   },
   "tests/integration/README.md": {
-    "bytes": 95,
-    "sha256": "e9895874444e57bb520e16602ad4789f9b1fbbf443b2f636020a0f8a85741b25"
+    "bytes": 561,
+    "sha256": "a98900f06f13ee365dbf84188f37f4b8010fb3832b2a5c215002893243bfa61f"
   },
   "toolchain-freeze.json": {
-    "bytes": 1408,
-    "sha256": "7c57df46f2299a843354efa6f36c0e94747c31600c2ad1741f59199b0c5c9f90"
+    "bytes": 2636,
+    "sha256": "5fa6c0821de019813345660c37a377838893a539dcc1a45b3b93167fed2dec5d"
+  },
+  "verification/reviewer-freeze/final-evidence-r1/SHA256SUMS.txt": {
+    "bytes": 1211,
+    "sha256": "0ddd2620396ebeb7ca795fa3d17cb43a85e8aea68ad8930d1badd9f6eadea5b6"
   }
 }

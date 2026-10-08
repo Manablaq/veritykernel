@@ -3,6 +3,12 @@
     "py_genlayer": "5jycge4q8k23462jtb0b9fyey1s9qz928sz2nbrd9mg4sxqg2qng",
     "version_line": "v0.3.0"
   },
+  "current_status": {
+    "backend_complete": true,
+    "studio_dev_live_finality_certified": true,
+    "studio_dev_validator_sandbox_pending": false,
+    "submission_ready": true
+  },
   "date": "2026-10-05",
   "genvm_manager": "v0.6.0-rc5",
   "local_certification": {
@@ -11,7 +17,9 @@
     "date": "2026-10-07",
     "direct_mode_tests": "31/31 passed",
     "direct_test_sha256": "e84cb2a8fda5eda73c9576d51e3385f439b0258cb1d85244c490e90f311521de",
-    "studio_dev_validator_sandbox_pending": true
+    "historical_snapshot": true,
+    "studio_dev_validator_sandbox_pending": true,
+    "superseded_by": "studio_dev_live_certification"
   },
   "packages": {
     "cloudpickle": "3.1.2",
@@ -29,8 +37,39 @@
     "studio_release_commit": "a0300c398528f743465c4e060c80877ced3873c5",
     "studio_release_tree": "7150e217a417af59fd1d1852f5f9573edad4ae9e"
   },
-  "release_claim": "NO_DEPLOYMENT_NO_CERTIFICATION",
+  "release_claim": "DEPLOYED_LIVE_FINALITY_CERTIFIED",
   "schema": "veritykernel-toolchain-freeze-v1",
+  "studio_dev_live_certification": {
+    "chain_id": 61997,
+    "consensus_api": "gl.eq_principle.strict_eq",
+    "contract_address": "0xfE1259176227c240cFBdA791aec99EdaE935Fc09",
+    "date": "2026-10-08",
+    "deployment_transaction": "0x01086cea1374a4952cd7a565a7f4c9ea09f97e1bc3595a4f9346eab14f4a1b87",
+    "finality_evidence": "verification/reviewer-freeze/live-finality/",
+    "gate_h": {
+      "fail": {
+        "vector": "NN",
+        "verdict": "FAIL"
+      },
+      "inconclusive": {
+        "vector": "YU",
+        "verdict": "INCONCLUSIVE"
+      },
+      "pass": {
+        "vector": "YN",
+        "verdict": "PASS"
+      },
+      "prompt_injection": {
+        "policy_override_resisted": true,
+        "vector": "YN",
+        "verdict": "PASS"
+      }
+    },
+    "network": "studio-dev",
+    "raw_responses_preserved_before_decode": true,
+    "reviewer_freeze_commit": "f3b10b8c4f2876b5689648ae2b3e0dc53360281e",
+    "status": "COMPLETE"
+  },
   "target": {
     "chain_id": 61997,
     "network": "studio-dev",
