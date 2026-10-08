@@ -63,14 +63,6 @@
     "bytes": 2252,
     "sha256": "3d49d1c430db986cf415feeaa27e2fdc07d85fa77d3ab5c338939bf9dbf2421e"
   },
-  "tests/direct/__pycache__/test_verity_kernel.cpython-312-pytest-8.4.2.pyc": {
-    "bytes": 40321,
-    "sha256": "b8ff272d34f57f2c5e2e9de710cfca1a150658167eb642f7e9e1da0515c52600"
-  },
-  "tests/direct/__pycache__/test_verity_kernel.cpython-312.pyc": {
-    "bytes": 17741,
-    "sha256": "de739c23341828f085d3923e81f0308b2fc95b38c3c55f0345c998708fe42625"
-  },
   "tests/direct/test_verity_kernel.py": {
     "bytes": 13211,
     "sha256": "e84cb2a8fda5eda73c9576d51e3385f439b0258cb1d85244c490e90f311521de"
