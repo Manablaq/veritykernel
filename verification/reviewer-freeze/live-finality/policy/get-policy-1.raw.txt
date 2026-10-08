@@ -1,0 +1,7 @@
+[genlayer-js] initializeConsensusSmartContract() is deprecated and will be removed in a future release. The consensus contract is now resolved from the static chain definition.
+- Calling method get_policy on contract at 0xfE1259176227c240cFBdA791aec99EdaE935Fc09...
+
+Result:
+{"creator":"0x1f87Ae197af539253978d435aD45cCf28Fb95024","criteria":[{"expected":"YES","text":"Artifact alpha passed validation."},{"expected":"NO","text":"Artifact beta failed validation."}],"criteria_count":2,"policy_id":"policy:1","title":"Gate H validator matrix v1"}
+
+✔ Read operation successfully executed

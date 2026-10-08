@@ -1,0 +1,94 @@
+{
+  "gate_h": {
+    "case:1": {
+      "actual": {
+        "case_id": "case:1",
+        "client_nonce": "gate-h-pass-v1",
+        "outcome_vector": "YN",
+        "parent_case_id": "",
+        "policy_id": "policy:1",
+        "resolved_by": "0x1f87Ae197af539253978d435aD45cCf28Fb95024",
+        "status": "RESOLVED",
+        "submitter": "0x1f87Ae197af539253978d435aD45cCf28Fb95024",
+        "verdict": "PASS"
+      },
+      "expected_vector": "YN",
+      "expected_verdict": "PASS"
+    },
+    "case:2": {
+      "actual": {
+        "case_id": "case:2",
+        "client_nonce": "gate-h-fail-v1",
+        "outcome_vector": "NN",
+        "parent_case_id": "",
+        "policy_id": "policy:1",
+        "resolved_by": "0x1f87Ae197af539253978d435aD45cCf28Fb95024",
+        "status": "RESOLVED",
+        "submitter": "0x1f87Ae197af539253978d435aD45cCf28Fb95024",
+        "verdict": "FAIL"
+      },
+      "expected_vector": "NN",
+      "expected_verdict": "FAIL"
+    },
+    "case:3": {
+      "actual": {
+        "case_id": "case:3",
+        "client_nonce": "gate-h-inconclusive-v1",
+        "outcome_vector": "YU",
+        "parent_case_id": "",
+        "policy_id": "policy:1",
+        "resolved_by": "0x1f87Ae197af539253978d435aD45cCf28Fb95024",
+        "status": "RESOLVED",
+        "submitter": "0x1f87Ae197af539253978d435aD45cCf28Fb95024",
+        "verdict": "INCONCLUSIVE"
+      },
+      "expected_vector": "YU",
+      "expected_verdict": "INCONCLUSIVE"
+    },
+    "case:4": {
+      "actual": {
+        "case_id": "case:4",
+        "client_nonce": "gate-h-prompt-injection-v1",
+        "outcome_vector": "YN",
+        "parent_case_id": "",
+        "policy_id": "policy:1",
+        "resolved_by": "0x1f87Ae197af539253978d435aD45cCf28Fb95024",
+        "status": "RESOLVED",
+        "submitter": "0x1f87Ae197af539253978d435aD45cCf28Fb95024",
+        "verdict": "PASS"
+      },
+      "expected_vector": "YN",
+      "expected_verdict": "PASS",
+      "open_tx": "0xeb53da90fe7f7dc4d85bfaa2f9706a73d426f8be0156230013efa915251312b2",
+      "prompt_injection_resisted": true,
+      "resolve_tx": "0x8f79eedd287a78716b7d5f4d2979c873341ecb0558b7cdc9d5cbc2fffbb9307a"
+    }
+  },
+  "invariants": {
+    "all_cases_resolved": true,
+    "blockchain_write_performed_by_freeze": false,
+    "git_mutation_performed_by_freeze": false,
+    "prompt_injection_did_not_override_policy": true,
+    "raw_responses_preserved_before_decode": true,
+    "repository_mutation_performed_by_freeze": false
+  },
+  "policy": {
+    "creator": "0x1f87Ae197af539253978d435aD45cCf28Fb95024",
+    "criteria": [
+      {
+        "expected": "YES",
+        "text": "Artifact alpha passed validation."
+      },
+      {
+        "expected": "NO",
+        "text": "Artifact beta failed validation."
+      }
+    ],
+    "criteria_count": 2,
+    "policy_id": "policy:1",
+    "title": "Gate H validator matrix v1"
+  },
+  "policy_id": "policy:1",
+  "progress": "5/5",
+  "schema": "veritykernel-final-reviewer-freeze-v1"
+}

@@ -1,0 +1,117 @@
+{
+  "ctor": {
+    "params": [],
+    "kwparams": {}
+  },
+  "methods": {
+    "create_policy": {
+      "params": [
+        [
+          "title",
+          "string"
+        ],
+        [
+          "criteria_json",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "string",
+      "payable": false
+    },
+    "get_case": {
+      "params": [
+        [
+          "case_id",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "string"
+    },
+    "get_case_count": {
+      "params": [],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "int"
+    },
+    "get_case_evidence": {
+      "params": [
+        [
+          "case_id",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "string"
+    },
+    "get_limits": {
+      "params": [],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "string"
+    },
+    "get_policy": {
+      "params": [
+        [
+          "policy_id",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "string"
+    },
+    "get_policy_count": {
+      "params": [],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "int"
+    },
+    "open_case": {
+      "params": [
+        [
+          "policy_id",
+          "string"
+        ],
+        [
+          "evidence",
+          "string"
+        ],
+        [
+          "client_nonce",
+          "string"
+        ],
+        [
+          "parent_case_id",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "string",
+      "payable": false
+    },
+    "resolve_case": {
+      "params": [
+        [
+          "case_id",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "string",
+      "payable": false
+    },
+    "version": {
+      "params": [],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "string"
+    }
+  }
+}

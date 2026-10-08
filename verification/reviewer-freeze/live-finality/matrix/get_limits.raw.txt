@@ -1,0 +1,7 @@
+[genlayer-js] initializeConsensusSmartContract() is deprecated and will be removed in a future release. The consensus contract is now resolved from the static chain definition.
+- Calling method get_limits on contract at 0xfE1259176227c240cFBdA791aec99EdaE935Fc09...
+
+Result:
+{"llm_outcomes":["YES","NO","UNKNOWN"],"max_criteria":8,"max_criterion_chars":320,"max_evidence_chars":4096,"max_nonce_chars":64,"max_policy_spec_chars":4096,"max_policy_title_chars":80,"verdicts":["PASS","FAIL","INCONCLUSIVE"]}
+
+✔ Read operation successfully executed

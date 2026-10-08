@@ -1,0 +1,11 @@
+SEARCH_START=/Users/mralbert/Downloads/veritykernel
+VERITYKERNEL_GIT_ROOT_FOUND=NO
+LOCAL_PROJECT_PATH_IS_GIT_REPOSITORY=NO
+NEARBY_GIT_ROOT_CANDIDATES_BEGIN
+/Users/mralbert/Downloads/genlayer-evidence-corroboration
+/Users/mralbert/Downloads/genlayer-evidence-primary
+/Users/mralbert/Downloads/genlayer-official-control
+/Users/mralbert/Downloads/genlayer-outcome-market
+/Users/mralbert/Downloads/proofgate_rc12
+/Users/mralbert/Downloads/sourcejury-backend
+NEARBY_GIT_ROOT_CANDIDATES_END

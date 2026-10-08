@@ -1,0 +1,7 @@
+[genlayer-js] initializeConsensusSmartContract() is deprecated and will be removed in a future release. The consensus contract is now resolved from the static chain definition.
+- Calling method get_case on contract at 0xfE1259176227c240cFBdA791aec99EdaE935Fc09...
+
+Result:
+{"case_id":"case:1","client_nonce":"gate-h-pass-v1","outcome_vector":"YN","parent_case_id":"","policy_id":"policy:1","resolved_by":"0x1f87Ae197af539253978d435aD45cCf28Fb95024","status":"RESOLVED","submitter":"0x1f87Ae197af539253978d435aD45cCf28Fb95024","verdict":"PASS"}
+
+✔ Read operation successfully executed

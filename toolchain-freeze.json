@@ -1,0 +1,40 @@
+{
+  "contract_runner": {
+    "py_genlayer": "5jycge4q8k23462jtb0b9fyey1s9qz928sz2nbrd9mg4sxqg2qng",
+    "version_line": "v0.3.0"
+  },
+  "date": "2026-10-05",
+  "genvm_manager": "v0.6.0-rc5",
+  "local_certification": {
+    "consensus_api": "gl.eq_principle.strict_eq",
+    "contract_sha256": "48d19772440134a0eebe5511f6f6cacaffec977fe10bfd46594dc132f9f8c37d",
+    "date": "2026-10-07",
+    "direct_mode_tests": "31/31 passed",
+    "direct_test_sha256": "e84cb2a8fda5eda73c9576d51e3385f439b0258cb1d85244c490e90f311521de",
+    "studio_dev_validator_sandbox_pending": true
+  },
+  "packages": {
+    "cloudpickle": "3.1.2",
+    "genlayer-cli": "0.40.0-rc.3",
+    "genlayer-js": "2.0.0-rc.1",
+    "genlayer-py": "0.19.0rc2",
+    "genlayer-test": "0.30.0rc2",
+    "genvm-linter": "0.11.1rc2",
+    "pyright": "1.1.414",
+    "pytest": "8.4.2"
+  },
+  "provenance_correction": {
+    "date": "2026-10-07",
+    "reason": "Original scaffold used a runner pin from Studio main instead of the released v0.123.0-rc.7 tree.",
+    "studio_release_commit": "a0300c398528f743465c4e060c80877ced3873c5",
+    "studio_release_tree": "7150e217a417af59fd1d1852f5f9573edad4ae9e"
+  },
+  "release_claim": "NO_DEPLOYMENT_NO_CERTIFICATION",
+  "schema": "veritykernel-toolchain-freeze-v1",
+  "target": {
+    "chain_id": 61997,
+    "network": "studio-dev",
+    "rpc": "https://studio-dev.genlayer.com/api",
+    "studio": "v0.123.0-rc.7"
+  }
+}

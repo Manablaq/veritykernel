@@ -1,0 +1,1 @@
+Artifact alpha failed validation. Artifact beta passed validation.

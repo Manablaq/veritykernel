@@ -1,0 +1,70 @@
+{
+  ".gitignore": {
+    "bytes": 70,
+    "sha256": "a72c12a64c6e47f3bb52e2963729887e4ea5bdd6dc08b9c2f1aa1dc789494597"
+  },
+  "README.md": {
+    "bytes": 1239,
+    "sha256": "8584510c686362199f74c9554bc2a57d1168910d8fd187e58a268bef52ab847a"
+  },
+  "contracts/verity_kernel.py": {
+    "bytes": 13781,
+    "sha256": "48d19772440134a0eebe5511f6f6cacaffec977fe10bfd46594dc132f9f8c37d"
+  },
+  "docs/ARCHITECTURE_FREEZE.md": {
+    "bytes": 1948,
+    "sha256": "5ee5dc68bcf8986fd1223594ec118be31e96399969aa91bffab73137d590f01a"
+  },
+  "docs/LOCAL_CERTIFICATION_2026-10-07.md": {
+    "bytes": 1574,
+    "sha256": "2177efaa779b4d49ea8525174871952af518941095bc4bf3f2779302ccfe9cc1"
+  },
+  "docs/RELEASE_GATES.md": {
+    "bytes": 1449,
+    "sha256": "f2bdc819383255821857865b3ac4808ee3f82946961aa94b8fa9dda21eaa7f4c"
+  },
+  "docs/RESEARCH_FREEZE.md": {
+    "bytes": 1826,
+    "sha256": "80f0c8e73d8269d28532138e0c5853de2b8db4d9c4615ccf53bfed6bf8161890"
+  },
+  "docs/RUNNER_PIN_CORRECTION_2026-10-07.md": {
+    "bytes": 596,
+    "sha256": "37541d81daece6aaa28af6e93bb1134db39b7613088bdffcec894534bdfe8305"
+  },
+  "docs/THREAT_MODEL.md": {
+    "bytes": 1422,
+    "sha256": "2ab296ce0206abade17eb9bac3a63c60324f1dc210ddb88baf7ec8ce75df527f"
+  },
+  "docs/VERIFIER_VENV_CORRECTION_2026-10-07.md": {
+    "bytes": 790,
+    "sha256": "d1f5fdbfdc444a288be19a48e67b1b1ad14752d280250151cc92cd2d34e8ba4b"
+  },
+  "gltest.config.yaml": {
+    "bytes": 180,
+    "sha256": "ab0a4079cf18e1c522c7c70b57dbff48884062c668f5f232caee065a92d70ede"
+  },
+  "pyproject.toml": {
+    "bytes": 127,
+    "sha256": "293ae0b0509240996a4b53c1057baa93c81762444c7867dcc02d0a98b162d0a6"
+  },
+  "requirements.txt": {
+    "bytes": 122,
+    "sha256": "32229695ba024fb32521ace66b621870a217d7fdf8ae9caa19560c9477d16c1a"
+  },
+  "scripts/verify_backend.sh": {
+    "bytes": 2252,
+    "sha256": "3d49d1c430db986cf415feeaa27e2fdc07d85fa77d3ab5c338939bf9dbf2421e"
+  },
+  "tests/direct/test_verity_kernel.py": {
+    "bytes": 13211,
+    "sha256": "e84cb2a8fda5eda73c9576d51e3385f439b0258cb1d85244c490e90f311521de"
+  },
+  "tests/integration/README.md": {
+    "bytes": 95,
+    "sha256": "e9895874444e57bb520e16602ad4789f9b1fbbf443b2f636020a0f8a85741b25"
+  },
+  "toolchain-freeze.json": {
+    "bytes": 1408,
+    "sha256": "7c57df46f2299a843354efa6f36c0e94747c31600c2ad1741f59199b0c5c9f90"
+  }
+}

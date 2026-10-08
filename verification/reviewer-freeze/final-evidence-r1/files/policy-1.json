@@ -1,0 +1,1 @@
+{"creator":"0x1f87Ae197af539253978d435aD45cCf28Fb95024","criteria":[{"expected":"YES","text":"Artifact alpha passed validation."},{"expected":"NO","text":"Artifact beta failed validation."}],"criteria_count":2,"policy_id":"policy:1","title":"Gate H validator matrix v1"}

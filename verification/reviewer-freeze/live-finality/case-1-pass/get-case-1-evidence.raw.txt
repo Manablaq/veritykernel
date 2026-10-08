@@ -1,0 +1,7 @@
+[genlayer-js] initializeConsensusSmartContract() is deprecated and will be removed in a future release. The consensus contract is now resolved from the static chain definition.
+- Calling method get_case_evidence on contract at 0xfE1259176227c240cFBdA791aec99EdaE935Fc09...
+
+Result:
+Artifact alpha passed validation. Artifact beta passed validation.
+
+✔ Read operation successfully executed
